@@ -1,3 +1,8 @@
-<layout id="MainLayout">
-    <bitmap id="id_monkey" x="center" y="center" filename="../drawables/monkey.png" />
-</layout>
+<resources>
+    <layout id="Main">
+        <bitmap id="id_monkey" x="center" y="center" filename="../drawables/monkey.png"/>
+    </layout>
+    <layout id="Daily">
+        <bitmap id="id_launch" x="center" y="center" filename="../drawables/launcher_icon.png"/>
+    </layout>
+</resources>

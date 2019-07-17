@@ -16,7 +16,7 @@ class MainApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-        return [ new MainView() ];
+        return [ new MainView(), new MainInputDelegate() ];
     }
 
 }
